@@ -1,0 +1,2 @@
+ant run1 -Dargs="C:/Users/uziam/Code/corpus C:/Users/uziam/Code\Biuoop/ass7/hypernym_db.txt"
+ant run2 -Dargs="C:/Users/uziam/Code/corpus canada"

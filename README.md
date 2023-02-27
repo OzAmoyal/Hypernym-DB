@@ -49,7 +49,7 @@ To run on a corpus and get the whole database into a file enter:
 
 To search a lemma in the corpus to find its hypernyms enter:
 
-ant run2 -Dargs="<First argument - The directory of the corpus> <Second argument - the lemma to search for>"
+`ant run2 -Dargs="<First argument - The directory of the corpus> <Second argument - the lemma to search for>"`
 
 
 #### Run Example

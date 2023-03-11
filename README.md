@@ -31,7 +31,7 @@ Here, the first NP is the hyponym and the second in a hypernym. Example: "Object
  - NP {,} which is NP
  - NP {,} which is an example of NP
  - NP {,} which is a kind of NP
-- NP {,} which is a class of NP
+ - NP {,} which is a class of NP
 
 #### How to run
 1. Clone the repository:
@@ -41,15 +41,15 @@ Here, the first NP is the hyponym and the second in a hypernym. Example: "Object
 3. Download Apache Ant from [here](https://ant.apache.org/bindownload.cgi) to use the build file to compile and run the program.
 4. Open the terminal in the folder that contains the build files and the src folder and enter to compile:
 
-`ant compile`
+``` ant compile ```
 
 To run on a corpus and get the whole database into a file enter:
 
-`ant run1 -Dargs="<First argument - The directory of the corpus> <Second argument- name for the new output file>"`
+``` ant run1 -Dargs="<First argument - The directory of the corpus> <Second argument- name for the new output file>" ```
 
 To search a lemma in the corpus to find its hypernyms enter:
 
-`ant run2 -Dargs="<First argument - The directory of the corpus> <Second argument - the lemma to search for>"`
+``` ant run2 -Dargs="<First argument - The directory of the corpus> <Second argument - the lemma to search for>" ```
 
 
 #### Run Example
